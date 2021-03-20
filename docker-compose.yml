@@ -2,6 +2,7 @@ version: "3.9"
 services: 
     mongodb:
         image: "mongo"
+        #entrypoint: "for i in /app/data/csv/*.csv; do mongoimport --db Binance --type --headerline --ignoreBlanks --file $i; done"
     
     cryptoapi:
         build: .

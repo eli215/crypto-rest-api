@@ -1,0 +1,104 @@
+{
+    "pairs": [
+     {
+       "id": "ADABTC",
+       "symbol": "ADA/BTC"
+     },
+     {
+       "id": "ADAUSDT",
+       "symbol": "ADA/USDT"
+     },
+     {
+       "id": "ASTBTC",
+       "symbol": "AST/BTC"
+     },
+     {
+       "id": "BNBUSDT",
+       "symbol": "BNB/USDT"
+     },
+     {
+       "id": "BTCUSDT",
+       "symbol": "BTC/USDT"
+     },
+     {
+       "id": "BTGBTC",
+       "symbol": "BTG/BTC"
+     },
+     {
+       "id": "BTTUSDT",
+       "symbol": "BTT/USDT"
+     },
+     {
+       "id": "DASHBTC",
+       "symbol": "DASH/BTC"
+     },
+     {
+       "id": "EOSBTC",
+       "symbol": "EOS/BTC"
+     },
+     {
+       "id": "EOSUSDT",
+       "symbol": "EOS/USDT"
+     },
+     {
+       "id": "ETCBTC",
+       "symbol": "ETC/BTC"
+     },
+     {
+       "id": "ETCUSDT",
+       "symbol": "ETC/USDT"
+     },
+     {
+       "id": "ETHBTC",
+       "symbol": "ETH/BTC"
+     },
+     {
+       "id": "ETHUSDT",
+       "symbol": "ETH/USDT"
+     },
+     {
+       "id": "IOTABTC",
+       "symbol": "IOTA/BTC"
+     },
+     {
+       "id": "LINKUSDT",
+       "symbol": "LINK/USDT"
+     },
+     {
+       "id": "LTCBTC",
+       "symbol": "LTC/BTC"
+     },
+     {
+       "id": "LTCUSDT",
+       "symbol": "LTC/USDT"
+     },
+     {
+       "id": "NEOBTC",
+       "symbol": "NEO/BTC"
+     },
+     {
+       "id": "QTUMUSDT",
+       "symbol": "QTUM/USDT"
+     },
+     {
+       "id": "TRXUSDT",
+       "symbol": "TRX/USDT"
+     },
+     {
+       "id": "XLMBTC",
+       "symbol": "XLM/BTC"
+     },
+     {
+       "id": "XMRUSDT",
+       "symbol": "XMR/USDT"
+     },
+     {
+       "id": "XRPUSDT",
+       "symbol": "XRP/USDT"
+     },
+     {
+       "id": "ZECUSDT",
+       "symbol": "ZEC/USDT"
+     }
+    ]
+    }

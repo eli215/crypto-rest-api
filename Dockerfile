@@ -14,6 +14,7 @@ RUN pip3 install -r requirements.txt
 
 # Copying project files.
 COPY ["Test_MongoDB_API.py", "/app"]
+COPY data/json /app/data/json
 
 # Exposing an internal port
 EXPOSE 5001
