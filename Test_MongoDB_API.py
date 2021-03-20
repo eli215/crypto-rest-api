@@ -1,6 +1,9 @@
 from flask import Flask, request, json, Response
 from pymongo import MongoClient
 
+app = Flask(__name__)
+
+
 class MongoAPI:
     def __init__(self, data):
         self.client = MongoClient("mongodb://localhost:5000/")
@@ -37,8 +40,18 @@ class MongoAPI:
         output = {'Status': 'Successfuly Deleted' if response.deleted_count > 0 else 'Document not found.'}
         return output
 
-    
+
+@app.route('/')
+def base():
+    return Response(response=json.dumps({"Status": "UP"}),
+                    status=200,
+                    mimetype='application/json')
+
+
 if __name__ == '__main__':
+
+    app.run(debug=True, port=5001, host='0.0.0.0')
+    
     data = {
         "database": "MongoTest",
         "collection": "people",

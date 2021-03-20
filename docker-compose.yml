@@ -1,0 +1,11 @@
+version: "3.9"
+services: 
+    mongodb:
+        image: "mongo"
+    
+    cryptoapi:
+        build: .
+        depends_on: 
+            - mongodb
+        ports:
+            - "5001:5001"
