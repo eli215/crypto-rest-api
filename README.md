@@ -86,6 +86,7 @@ Response:
             "symbol": "BTC/USDT",
             "last_price": "59109.89"
         }
+    ]
 }
 ```
   
@@ -112,5 +113,6 @@ Response:
             "Volume BTC": "9858.13758",
             "tradecount": "329754"
         }
+    ]
 }
 ``` 
